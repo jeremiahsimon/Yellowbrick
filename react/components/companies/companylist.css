@@ -1,0 +1,40 @@
+.company.card {
+  background-color: white;
+  transition: transform 0.1s;
+}
+
+.company.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.company.card-body {
+  background-color: white;
+  height: 375px;
+  padding: 5px;
+}
+
+.company.card-body:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.company-logo-image {
+  max-height: 100%;
+  max-width: 80%;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.company-text-container {
+  padding: 30px;
+  text-align: center;
+}
